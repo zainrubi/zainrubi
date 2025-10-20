@@ -1,0 +1,235 @@
+.navbar{
+    background-color: rgb(236, 236, 236);
+    /* position: fixed; */
+    color: black !important;
+    
+    /* border: 1px solid gold; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 15px gold; */
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: gold !important;
+}
+.nav-link{
+    margin-left: 25px;
+    font-weight:100;
+    color: black ;
+
+}
+.nav-link:hover{
+    color: gold ;
+    transition: 0.3s;
+}
+#search{
+    margin-right: 5px;
+}
+@media (max-width:375px) {
+#search{
+    display: none;
+    margin-right: 5px;
+}
+#hamburger{
+    margin-right:5px ;
+}
+}
+
+/* slides section
+ */
+.carousel-item img{
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+} 
+.carousel-caption{
+    margin-top: 50px;
+    margin-bottom: 230px;
+    margin-right:400px;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 300px;
+    color: white;
+    /* box-shadow: 0 0 10px gold; */
+}
+#carouselh3{
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: -200px !important;
+    /* color: gold; */
+    /* box-shadow: 0 0 10px gold; */
+
+}
+
+.carousel-caption p{
+    font-weight: bold;
+    color: white;
+}
+
+/* categories section */
+.categories{
+    height: 200px;
+    /* background-color: goldenrod; */
+    /* margin-top: -40px; */
+    /* margin-left: -0px; */
+    /* margin-right: -80px; */
+    /* width: 1700px; */
+    
+
+}
+.title{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.title p{
+    margin-top:20px ;
+}
+.row{
+    margin-top: 30px;
+    
+}
+.row button{
+    /* box-shadow: 0px 0px 0px 4px; */
+    border: (5px solid rgb(255, 0, 0)) !important;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gold;
+    /* background-color: rgb(236, 236, 236); */
+    font-weight: bold;
+    /* color: white; */
+    
+    /* box-shadow: 0px 0px 0px 4px rgb(1, 255, 234); */
+}
+.row button:hover{
+    background-color:gold;
+    box-shadow: 0 0 10px gold, 0 020px gold;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+
+/* cards section */
+.card{
+    overflow: hidden !important;
+    /* background-color: rgb(207, 207, 207); */
+    width: 410px;
+    /* padding-top: 30px; */
+    background-color: gold;
+}
+.cardh1{
+ 
+ /* margin-top: 25px; */
+ font-size: 80px;
+ text-align: center;
+ /* color: white; */
+    margin-top: 0px !important;
+}
+.card-body{
+    background-color: rgb(236, 236, 236);
+}
+.card-img-top{
+    height: 220px;
+    width: 410px;
+}
+.c{
+    margin-bottom: 10px;
+}
+#Cars .card:hover{
+  border: 2px soldi gold;
+  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+  transition: 0.3s;
+  border: none;
+    /* overflow: hidden; */
+}
+#Cars .card img:hover{
+    cursor: pointer;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 320px;
+    position: relative;
+    bottom: -1630px;
+    margin-top: 80px !important;
+    padding: 55px;
+    font-weight: bold;
+}
+.footer-btn{
+    text-align: center !important;
+    margin-top: -40px;
+}
+#footerbtn{
+    margin-left: 39%;
+    /* text-align: center; */
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border: 2px solid gold !important;
+    /* box-shadow: 0px 0px 0px 1px cyan; */
+box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+
+}
+#footerbtn:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px gold;
+    border: none;
+    color: black;
+    background-color: gold;
+}
+.footer .row li {
+    margin-top: 7px;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px;
+}
+.footer .row li a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+#companyname,#contactus,#follow{
+    font-size: 20px;
+    color: gold;
+    box-shadow: 0 0 10 gold;
+}
+
+/* login btn */
+
+#loginbtn:hover
+{
+ transition: 0.5s;
+ box-shadow: 0 0 10px blue;
+}
+#signupbtn:hover
+{
+ transition: 0.5s;
+ box-shadow: 0 0 10px blue;
+}
+#signupbtn{
+    width: 100%;
+}
+#Cars button{
+    background-color: white !important;
+    border:2px solid gold !important;
+    color: black;
+    font-family: italic;
+    font-weight: bold;
+}
+#Cars button:hover{
+    background-color: gold !important;
+    border:2px solid gold !important;
+    color: white;
+    font-family: italic;
+    font-weight: bold;
+    box-shadow: 0 0 10px gold, 0 0 20px gold !important;
+}
+
+
+
