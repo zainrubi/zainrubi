@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PKdrives</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="css/PK.css">
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg  navbar-light " id="navbar">
+
+        <button class="navbar-toggler justify-content-start" type="button" id="hamburger" data-bs-toggle="collapse"
+            data-bs-target="#navbaritems" aria-controls="navbaritems" aria-expanded="false"
+            aria-label="Toggle navigation" style="border-radius: 5px;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a href="Home" id="navbrand" class="navbar-brand">PKdrives</a>
+
+
+
+        <div class="collapse navbar-collapse" id="navbaritems">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#Cars" class="nav-link">Cars</a></li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="navbardropdown">More</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                        <li><a class="dropdown-item" href="#">Updates</a></li>
+                        <li><a class="dropdown-item" href="#">Info</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#About" class="nav-link">About </a></li>
+                <li class="nav-item"><a href="#" data-bs-target="#loginmodal" data-bs-toggle="modal"
+                        class="nav-link">Login</a></li>
+            </ul>
+        </div>
+
+        <form id="search" class="search d-flex ms-auto">
+            <input type="text" class="form-control me-2" placeholder="Search">
+            <button class="btn btn-dark">Search</button>
+        </form>
+
+
+    </nav>
+
+    <!-- home page section -->
+    <div class="homepage" id="home">
+        <div class="carousel slide w-100" id="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/slide1.jpeg" alt="First image">
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/slide2.jpg" alt="second image">
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/slide3.jpg" alt="third image">
+                </div>
+                <div class="carousel-item active">
+                    <img src="image/slide7.png" alt="five image ">
+                </div>
+            </div>
+
+            <!--carousel caption  -->
+            <div class="carousel-caption">
+                <h1 id="carouselh3">PKdrives</h1>
+                <!-- <p id="p">Choose you dream cars here and enjoy the luxury and classic drives.</p> -->
+            </div>
+
+
+            <!-- prev and next buttons -->
+            <button class="carousel-control-prev" data-bs-target="#carousel" type="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"> </span>
+                <span class="visually-hidden">previous</span>
+            </button>
+
+            <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- categories -->
+    <div class="container categories">
+
+        <div class="title">
+            <h1>Categories</h1>
+            <p>We provide various categories below choose your favourite one</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <button class="cbtn1 btn btn-outline-warning">New Models</button>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <button class="cbtn2 btn btn-outline-warning">High quality cars</button>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <button class="cbtn3 btn btn-outline-warning">Affordable</button>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <button class="cbtn4 btn btn-outline-warning">Sports cars</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards section -->
+    <div class="container-fluid vh-100 " id="Cars">
+        <h1 class="cardh1">Cars</h1>
+        <div class="row">
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c1.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Dodge Challenger SRT</h2>
+                        <p class="card-text">
+Higher-performance trims include: SRT Hellcat Redeye Widebody and the ultra-powerful Widebody Jailbreak editions </p>
+                        <div class="card-bottom">
+                            <a href="details.html?id=car1"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c2.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Dodge Charger Daytona </h2>
+                        <p class="card-text">This is the battery-electric (EV) version of the Charger, known as the Daytona Scat Pack—a nod to the iconic muscle-car heritage. </p>
+                        <div class="card-bottom">
+                          <a href="details.html?id=car2"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c3.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Bugatti La Voiture Noire </h2>
+                        <p class="card-text">.
+It was unveiled at the 2019 Geneva International Motor Show. </p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car3"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c4.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Lamborghini Vexus</h2>
+                        <p class="card-text">Aventador Ultimae (2021) – Final version, limited to 600 units, blending SVJ performance with Aventador S comfort. </p>
+                        <div class="card-bottom">
+                          <a href="details.html?id=car4"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c5.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">BMW Sportlight</h2>
+                        <p class="card-text"> The BMW SPORTLIGHT Competition is a high-performance sports sedan, part of BMW’s M Division lineup. It blends luxury, everyday usability, an</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car5"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c6.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">BMW M5 Competition</h2>
+                        <p class="card-text">The BMW M5 Competition is a high-performance sports sedan, part of BMW’s M Division lineup. It blends luxury, everyday usability, and</p>
+                        <div class="card-bottom">
+                          <a href="details.html?id=car6"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c7.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Dodge Charger</h2>
+                        <p class="card-text"> The Charger Hellcat Redeye Widebody is a four-door American muscle sedan that combines family-car practicality with outrageous supercar-level horsepower.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car7"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c8.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Ferrari SF90 Stradale</h2>
+                        <p class="card-text"> The Ferrari SF90 Stradale is Ferrari’s first plug-in hybrid supercar, blending a screaming V8 with three electric motors.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car8"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c9.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Jeep Wrangler Rubicon 392</h2>
+                        <p class="card-text"> The Jeep Wrangler Rubicon 392 is the most powerful Wrangler ever built. It takes Jeep’s legendary off-road machine.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car9"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c10.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Audi R8 V10</h2>
+                        <p class="card-text"> The Audi R8 V10 Performance is Audi’s flagship supercar, famous for sharing its engine with the Lamborghini Huracán.</p>
+                        <div class="card-bottom">
+                          <a href="details.html?id=car10"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c11.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Audi RS7 Sportback</h2>
+                        <p class="card-text"> The Audi RS7 Sportback is a high-performance luxury four-door coupe that blends practicality with insane speed.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car11"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c12.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Audi RS Q8</h2>
+                        <p class="card-text">The Audi RS Q8 is Audi’s performance SUV flagship. It combines SUV practicality with supercar powe </p>
+               <div class="card-bottom">
+                          <a href="details.html?id=car12"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c13.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Bugatti Chiron</h2>
+                        <p class="card-text">The Bugatti Chiron Super Sport 300+ is a record-breaking hypercar, famous for being the first production car to break 300 mph.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car13"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c14.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Bugatti Veyron</h2>
+                        <p class="card-text">
+The Bugatti Veyron 16.4 Super Sport was once the fastest car in the world, holding the Guinness World Record in 2010.</p>
+                        <div class="card-bottom">
+                           <a href="details.html?id=car14"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 c col-md-4">
+                <div class="card  w-18rem">
+                    <img class="card-img-top"
+                        src="image/c15.jpg"
+                        alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Cadillac “The Beast”</h2>
+                        <p class="card-text">It looks like a stretched Cadillac sedan, but underneath it’s a heavily modified truck platform for strength.</p>
+                        <div class="card-bottom">
+                          <a href="details.html?id=car15"><button  class="btn btn-primary">Details</button></a>
+                            <a href="buy.html"><button class="btn btn-primary">Buy it</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section   -->
+    <footer class="footer bg-dark " id="About">
+        <button class="footer-btn btn btn-outline-info" id="footerbtn">PKdrives</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="company">
+                        <ul>
+                            <li><a href="#" id="companyname" >Company : PKdrives</a></li>
+                            <li><a href="#" id="copywrite" >&copy;PKdrives . All rights are reserved </a></li>
+                            
+                            <li><a href="#">Owner : Zain Ahmad</a></li>
+                            <li><a href="#">Bussiness : Automobile </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="contact">
+                        <ul>
+                            <li><a href="#" id="contactus" ></i>Contact us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-book"></i> Terms and conditions</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i> Email : zainloot@gmail.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i> Phone : 03019374994</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#" id="follow" >Follow us </a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram : zainloot</a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook : Zain Ahmad</a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i> Linked In : Zainloot </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- login modal -->
+    <div class="modal fade w-100 mt-10" id="loginmodal">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login here!</h4>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <button id="loginbtn" class="btn btn-primary w-100">Login</button>
+                    </form>
+                    <p class="mt-3">Don't you have an account?</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#signupmodal" class="modal-link">Sign up</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign up modal -->
+
+    <div class="modal fade mt-10 w-300" id="signupmodal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">
+                        Sign Up here!
+                    </h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- modal body -->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="" class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last Name" required>
+                        </div>
+                        <div class="mb-3">
+                        <label for="" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                    </form>
+
+                    <button id="signupbtn" class="btn btn-primary">Submit</button>
+                    <hr>
+                    <p>Already have an account! </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
